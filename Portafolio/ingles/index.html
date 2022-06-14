@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sss/sss.css">
+    <link rel="stylesheet" href="../ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="../ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="sss/sss.js"></script>
+	<script>
+	    jQuery(function($){
+	        $('.slider-testimonial').sss({
+	        	slideShow : true,
+	        	speed : 6500
+	        });
+	    });
+	</script>
+    <title>Portafolio</title>
+</head>
+<body>
+    <section class="photo" id="inicio">
+  
+        <div class="nav" id="sticker">
+        <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle">
+        <div class="menu">
+          
+          <select id="Idioma">
+            <option value="" selected="">Español</option>
+            <option value="Ingles/Index.html">Ingles</option>
+          </select>
+          <a href="#inicio">beginning</a>
+          <a href="sobremi.html">about me</a>
+          
+        
+
+          <a href="#contacto">contact</a>
+        </div>
+      </div>
+        <div class="photo-text">
+        <h4 data-ix="skype">Erick Tonatiu Trabanino Corea</h4>
+        <p data-ix="subtitle-hero-up">Scrum Master + Disigner</p>
+          </div>
+        <div class="overlay"></div>
+      </section>
+      <section class="content">
+        <div class="grand-title" id="servicio">
+          <h4 data-ix="slowfade-scroll-bigs">He is a student of the engineering career in computer systems and networks,
+            I have four Scrum Master certifications and one ISO9001
+          </h4>
+        </div>
+        <div class="text">
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">Agile methodologies</h3>
+            <i class="ic ion-fork"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">Autodidact</h5>
+              <p data-ix="slowfade-scroll-bigs"></p>
+            </div>
+          </div>
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">Informatic</h3>
+            <i class="ic ion-knife"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">free Software</h5>
+              <p data-ix="slowfade-scroll-bigs"></p>
+            </div>
+          </div>
+          <div class="inner-text">
+            <h3 data-ix="slowfade-scroll-bigs">Web development</h3>
+            <i class="ic ion-spoon"></i>
+            <div class="text-box">
+              <h5 data-ix="slowfade-scroll-bigs">development</h5>
+              <p data-ix="slowfade-scroll-bigs"></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="inner-content">
+          <div class="boxy"></div>
+          <div class="boxy">
+            <div id="slider">
+              <figure>
+                <ul>
+                  <li>
+                    <h4>Sitio Web para alcaldia de Berlin</h4>
+                    <img src="" alt="">
+                    <p></p>
+                  </li>
+                  <li>
+                    <h4>Pagina Web El Bambino SV</h4>
+                    <img src="" alt="">
+                    <p></p>
+                  </li>
+                  <li>
+                    <h4>App de streaming para canal 77</h4>
+                    <img src="" alt="">
+                    <p></p>
+                  </li>
+                  <li>
+                    <h4>Diseño grafico para CCD</h4>
+                    <img src="" alt="">
+                    <p></p>
+                  </li>
+                </ul>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <section class="portafolio" id="trabajo">
+          <h4 data-ix="slowfade-scroll-bigs">Trabajos</h4>
+          <div class="portafolio-container">
+            <section class="portafolio-item">
+              <img src="/Portafolio/img/Captura de pantalla (299).png" alt="" class="portafolio-img">
+              <section class="portafolio-text">
+                <h5>Sitio Web para Alcaldia de Berlin</h5>
+                <p></p>
+              </section>
+            </section>
+            <section class="portafolio-item">
+              <img src="/Portafolio/img/Captura de pantalla (298).png" alt="" class="portafolio-img">
+              <section class="portafolio-text">
+                <h5>Pagina Web para El bambino SV</h5>
+                <p></p>
+              </section>
+            </section>
+            <section class="portafolio-item">
+              <img src="/Portafolio/img/Captura de pantalla (296).png" alt="" class="portafolio-img">
+              <section class="portafolio-text">
+                <h5>APP de Steaming video para Canal de TV</h5>
+                <p></p>
+              </section>
+            </section>
+          </div>
+        </section>
+      </section>
+
+
+    
+         
+
+
+
+
+      <div class="footer" id="contacto">
+        <h4 data-ix="slowfade-scroll-bigs">Contacto</h4>
+        <div class="container">
+        <form action="enviar.php" method="post">
+          <ul class="flex-outer">
+            <li>
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" placeholder="Ingresa Nombre" class="rect" required="">
+            </li>
+            <li>
+              <label for="correo">Correo</label>
+              <input type="email" name="correo" placeholder="Ingresa Correo" class="rect" required="">
+            </li>
+            <li>
+              <label for="fono">Teléfono</label>
+              <input type="text" name="telefono" placeholder="Ingresa Teléfono" class="rect" required="">
+            </li>
+            <li>
+              <label for="mensaje">Mensaje</label>
+              <textarea rows="6" name="mensaje" class="rect" required=""></textarea>
+            </li>
+            <li class="center">
+              <button type="submit">Enviar</button>
+            </li>
+          </ul>
+        </form>
+      </div>
+      </div>
+
+      <div class="paginas">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <a class="redes-sociales" href="https://www.facebook.com/erick.trabanino.3/"><i class="fa fa-facebook-square"></i></a>
+              <a class="redes-sociales" href="https://www.linkedin.com/in/erick-trabanino-904421179/"><i class="fa fa-linkedin-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+</body>
+<script src="../ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="sss/sss.js"></script>
+<script src="../jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="../ajax/libs/jquery.sticky/1.0.4/jquery.sticky.min.js"></script>
+<script src="script.js"></script>
+</html>
